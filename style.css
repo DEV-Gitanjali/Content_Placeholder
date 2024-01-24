@@ -26,6 +26,11 @@ img{
     width: 350px;
 }
 
+/* this styling for card header  */
+.card-header{
+    height: 200px;
+}
+
 /* this styling for image card-header */
 .card-header img{
     object-fit: cover;
