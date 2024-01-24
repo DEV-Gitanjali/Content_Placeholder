@@ -44,3 +44,16 @@ img{
     height: 20px;
     margin: 0;
 }
+
+/* this styling for author position */
+.author{
+    display: flex;
+}
+
+/* styling for profile img */
+.profile-img{
+    border-radius:50% ;
+    overflow: hidden;
+    width: 40px;
+    height: 40px;
+}
