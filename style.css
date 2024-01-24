@@ -25,3 +25,22 @@ img{
     overflow: hidden;
     width: 350px;
 }
+
+/* this styling for image card-header */
+.card-header img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+
+}
+
+/* this styling for card-content */
+.card-content{
+    background-color: #fff;
+    padding: 30px;
+}
+/* this styling for card-title */
+.card-title{
+    height: 20px;
+    margin: 0;
+}
