@@ -57,3 +57,54 @@ img{
     width: 40px;
     height: 40px;
 }
+
+/* author info */
+.author-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-left: 10px;
+    width: 100px;
+}
+
+.author-info small{
+    
+        color: #aaa;
+        margin-top: 5px;
+ }
+ 
+ 
+ /* this styling for background image */
+.animated-bg{
+    background-image: linear-gradient(
+        to right,
+        #f6f7f8 0%,
+    #edeef1 10%,
+    #f6f7f8 20%,
+    #f6f7f8 100%  
+    );
+
+    background-image: 200% 100%;
+    animation: bgpos 1s linear infinite;
+}
+
+/* this code for text  */
+.animated-bg-text {
+    border-radius: 50px;
+    display: inline-block;
+    margin: 0;
+    height: 10px;
+    width: 100%;
+  }
+
+  /* background animation  position */
+  @keyframes bgpos {
+    0% {
+        background-position: 50% 0;
+      }
+    
+      100% {
+        background-position: -150% 0;
+      }
+  }
+  
