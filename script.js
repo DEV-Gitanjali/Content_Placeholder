@@ -23,6 +23,7 @@ function getData() {
     'Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore perferendis'
   profile_img.innerHTML =
     '<img src="https://randomuser.me/api/portraits/men/45.jpg" alt="" />'
+    // this code for innerhtml
   name.innerHTML = 'John Doe'
   date.innerHTML = 'Oct 08, 2020'
 
